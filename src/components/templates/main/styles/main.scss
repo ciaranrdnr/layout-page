@@ -1,0 +1,50 @@
+@import '../../../../assets/styles/index.scss';
+main.blue{
+  background-color: white;
+  margin: auto;
+  > div.layout {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    gap: 10px;
+    margin: 10px 0;
+    &.mobile{
+    flex-direction: column-reverse;
+
+    }
+    >section{
+      height: 25vh;
+      margin: 0 40px;
+      &.mobile {
+      margin: 0 10px;
+      }
+      &.sidebyside >.section, &.section{
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        justify-content: center;
+        text-align: center;
+      }
+      &.sidebyside >.one{
+       background-color: greenyellow;
+      }
+       &.sidebyside >.two{
+       background-color: aqua;
+      }
+      &.three {
+        background-color: hotpink;
+      }
+      &.four {
+        background-color: salmon;
+      }
+    }
+    > section.sidebyside {
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      >div{
+      width: 100%;
+      }
+    }
+  }
+}

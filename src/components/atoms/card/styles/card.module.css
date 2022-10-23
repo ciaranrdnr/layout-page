@@ -1,0 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;6000;700&display=swap");
+div.card {
+  box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.12);
+  background: #FFFFFF;
+  min-width: 20px;
+  min-height: 20px;
+  border-radius: 15px;
+}/*# sourceMappingURL=card.css.map */

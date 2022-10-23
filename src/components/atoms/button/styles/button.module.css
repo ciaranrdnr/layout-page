@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;6000;700&display=swap");
+
+button.btn-active {
+  background-color: #0095DA;
+  color: #FFFFFF;
+}
+button.btn-disabled {
+  background-color: #F1F1F1;
+  color: #979797;
+  cursor: auto;
+}/*# sourceMappingURL=button.css.map */

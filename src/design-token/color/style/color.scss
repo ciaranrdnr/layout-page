@@ -1,0 +1,58 @@
+@import '../../../assets/styles/index.scss';
+div{
+  display: flex;
+  flex-direction: column;
+>div.row{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  >div{
+    >p.lg-regular{
+      text-align: center;
+    }
+    >.card {
+      width: 50px;
+      height: 50px;
+      &.bg-grey-1{
+        background: $grey-1;
+      }
+      &.bg-grey-2{
+        background: $grey-2;
+      }
+      &.bg-grey-3{
+        background: $grey-3;
+      }
+      &.bg-grey-4{
+        background: $grey-4;
+      }
+      &.bg-grey-5{
+        background: $grey-5;
+      }
+
+      &.bg-white{
+        background: $white;
+      }
+      &.bg-blue-1{
+        background: $blue-1;
+      }
+      &.bg-blue-2{
+        background: $blue-2;
+      }
+      &.bg-orange-1{
+        background: $orange-1;
+      }
+      &.bg-orange-2{
+        background: $orange-2;
+      }
+      &.bg-red-1{
+        background: $red-1;
+      }
+      &.bg-red-2{
+        background: $red-2;
+      }
+  }
+
+}
+}
+}

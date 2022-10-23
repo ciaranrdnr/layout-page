@@ -1,0 +1,66 @@
+@import '../../../assets/styles/index.scss';
+
+p {
+  &.xs-regular{
+  font: $font-xs-regular;
+  }
+  &.xs-medium{
+  font: $font-xs-medium;
+  }
+  &.xs-semibold{
+  font: $font-xs-semibold;
+  }
+  &.xs-bold{
+  font: $font-xs-bold;
+  }
+
+  &.sm-regular{
+  font: $font-sm-regular;
+  }
+  &.sm-medium{
+  font: $font-sm-medium;
+  }
+  &.sm-semibold{
+  font: $font-sm-semibold;
+  }
+   &.sm-bold{
+  font: $font-sm-bold;
+  }
+
+   &.md-regular{
+  font: $font-md-regular;
+  }
+  &.md-medium{
+  font: $font-md-medium;
+  }
+  &.md-semibold{
+  font: $font-md-semibold;
+  }
+
+  &.lg-regular{
+  font: $font-lg-regular;
+  }
+  &.lg-medium{
+  font: $font-lg-medium;
+  }
+  &.lg-semibold{
+  font: $font-lg-semibold;
+  }
+   &.lg-bold{
+  font: $font-lg-bold;
+  }
+
+  &.xl-regular{
+  font: $font-xl-regular;
+  }
+  &.xl-medium{
+  font: $font-xl-medium;
+  }
+  &.xl-semibold{
+  font: $font-xl-semibold;
+  }
+  &.xl-bold{
+  font: $font-xl-bold;
+  }
+  
+}

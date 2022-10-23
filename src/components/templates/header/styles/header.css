@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;6000;700&display=swap");
+header.blue {
+  background: #0095DA;
+  display: flex;
+}
+header.blue > div.logo {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+}
+header.blue > div.logo.mobile {
+  -moz-text-align-last: center;
+       text-align-last: center;
+}/*# sourceMappingURL=header.css.map */

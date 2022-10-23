@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;6000;700&display=swap");
+button {
+  font: 500 14px Inter, sans-serif;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+main.blue {
+  background-color: white;
+  margin: auto;
+}
+main.blue > div.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  gap: 10px;
+  margin: 10px 0;
+}
+main.blue > div.layout.mobile {
+  flex-direction: column-reverse;
+}
+main.blue > div.layout > section {
+  height: 25vh;
+  margin: 0 40px;
+}
+main.blue > div.layout > section.mobile {
+  margin: 0 10px;
+}
+main.blue > div.layout > section.sidebyside > .section, main.blue > div.layout > section.section {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  text-align: center;
+}
+main.blue > div.layout > section.sidebyside > .one {
+  background-color: greenyellow;
+}
+main.blue > div.layout > section.sidebyside > .two {
+  background-color: aqua;
+}
+main.blue > div.layout > section.three {
+  background-color: hotpink;
+}
+main.blue > div.layout > section.four {
+  background-color: salmon;
+}
+main.blue > div.layout > section.sidebyside {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+main.blue > div.layout > section.sidebyside > div {
+  width: 100%;
+}/*# sourceMappingURL=main.css.map */

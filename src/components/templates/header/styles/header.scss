@@ -1,0 +1,13 @@
+@import '../../../../assets/styles/index.scss';
+header.blue{
+  background: $blue-1;
+  display: flex;
+  >div.logo{
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    &.mobile{
+      text-align-last: center;
+    }
+  }
+}

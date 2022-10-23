@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;6000;700&display=swap");
+button {
+  font: 500 14px Inter, sans-serif;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+p.xs-regular {
+  font: 400 10px Inter, sans-serif;
+}
+p.xs-medium {
+  font: 500 10px Inter, sans-serif;
+}
+p.xs-semibold {
+  font: 600 10px Inter, sans-serif;
+}
+p.xs-bold {
+  font: 700 10px Inter, sans-serif;
+}
+p.sm-regular {
+  font: 400 11px Inter, sans-serif;
+}
+p.sm-medium {
+  font: 500 11px Inter, sans-serif;
+}
+p.sm-semibold {
+  font: 600 11px Inter, sans-serif;
+}
+p.sm-bold {
+  font: 700 11px Inter, sans-serif;
+}
+p.md-regular {
+  font: 400 12px Inter, sans-serif;
+}
+p.md-medium {
+  font: 500 12px Inter, sans-serif;
+}
+p.md-semibold {
+  font: 600 12px Inter, sans-serif;
+}
+p.lg-regular {
+  font: 400 14px Inter, sans-serif;
+}
+p.lg-medium {
+  font: 500 14px Inter, sans-serif;
+}
+p.lg-semibold {
+  font: 600 14px Inter, sans-serif;
+}
+p.lg-bold {
+  font: 700 14px Inter, sans-serif;
+}
+p.xl-regular {
+  font: 400 16px Inter, sans-serif;
+}
+p.xl-medium {
+  font: 500 16px Inter, sans-serif;
+}
+p.xl-semibold {
+  font: 600 16px Inter, sans-serif;
+}
+p.xl-bold {
+  font: 700 16px Inter, sans-serif;
+}/*# sourceMappingURL=typograph.css.map */

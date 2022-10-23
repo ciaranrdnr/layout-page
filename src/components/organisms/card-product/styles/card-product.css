@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;6000;700&display=swap");
+button {
+  font: 500 14px Inter, sans-serif;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+.card.card-big {
+  max-width: 182px;
+}
+.card.card-small {
+  max-width: 132px;
+}
+.card > img {
+  margin-bottom: 8px;
+}
+.card > img.disabled {
+  opacity: 75%;
+}/*# sourceMappingURL=card-product.css.map */

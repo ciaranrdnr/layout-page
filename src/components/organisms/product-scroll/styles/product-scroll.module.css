@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;6000;700&display=swap");
+button {
+  font: 500 14px Inter, sans-serif;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.scroll-hide {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.scrolling-touch {
+  -webkit-overflow-scrolling: touch;
+}
+
+.scrolling-touch::-webkit-scrollbar {
+  height: 4px;
+  width: 4px;
+}
+
+.scrolling-touch::-webkit-scrollbar-thumb {
+  @apply rounded;
+  background: #e0e0e0;
+}
+
+.scroll-hide::-webkit-scrollbar {
+  @apply hidden;
+}/*# sourceMappingURL=product-scroll.css.map */

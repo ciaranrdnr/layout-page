@@ -1,0 +1,83 @@
+{
+  "name": "layout-page",
+  "version": "0.1.1",
+  "dependencies": {
+    "@ciaranrdnr/my-ds": "^0.1.1",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^13.0.0",
+    "@testing-library/user-event": "^13.2.1",
+    "@types/jest": "^27.0.1",
+    "@types/node": "^16.7.13",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "craco": "^0.0.3",
+    "next": "latest",
+    "react": "latest",
+    "react-device-detect": "^2.2.2",
+    "react-dom": "latest",
+    "react-scripts": "5.0.1",
+    "storybook-addon-next": "^1.6.9",
+    "typescript": "^4.4.2",
+    "web-vitals": "^2.1.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 6006 -s public",
+    "build-storybook": "build-storybook -s public"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ],
+    "overrides": [
+      {
+        "files": [
+          "**/*.stories.*"
+        ],
+        "rules": {
+          "import/no-anonymous-default-export": "off"
+        }
+      }
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^6.5.12",
+    "@storybook/addon-essentials": "^6.5.12",
+    "@storybook/addon-interactions": "^6.5.12",
+    "@storybook/addon-links": "^6.5.12",
+    "@storybook/builder-webpack5": "^6.5.12",
+    "@storybook/manager-webpack5": "^6.5.12",
+    "@storybook/mdx2-csf": "^0.0.3",
+    "@storybook/node-logger": "^6.5.12",
+    "@storybook/preset-create-react-app": "^4.1.2",
+    "@storybook/react": "^6.5.12",
+    "@storybook/testing-library": "^0.0.13",
+    "@types/gulp": "^4.0.9",
+    "@types/gulp-sass": "^5.0.0",
+    "babel-plugin-named-exports-order": "^0.0.2",
+    "prop-types": "^15.8.1",
+    "sass": "^1.55.0",
+    "webpack": "^5.74.0"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "craco.config.js",
+  "author": "ciara",
+  "license": "MIT"
+}

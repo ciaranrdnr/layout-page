@@ -1,0 +1,11 @@
+@import 'base';
+@import 'color';
+@import 'font';
+button {
+  font: 500 14px Inter, sans-serif;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}

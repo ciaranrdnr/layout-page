@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;6000;700&display=swap");
+button {
+  font: 500 14px Inter, sans-serif;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+}
+div > div.row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+}
+div > div.row > div > p.lg-regular {
+  text-align: center;
+}
+div > div.row > div > .card {
+  width: 50px;
+  height: 50px;
+}
+div > div.row > div > .card.bg-grey-1 {
+  background: #202020;
+}
+div > div.row > div > .card.bg-grey-2 {
+  background: #626262;
+}
+div > div.row > div > .card.bg-grey-3 {
+  background: #979797;
+}
+div > div.row > div > .card.bg-grey-4 {
+  background: #E0E0E0;
+}
+div > div.row > div > .card.bg-grey-5 {
+  background: #F1F1F1;
+}
+div > div.row > div > .card.bg-white {
+  background: #FFFFFF;
+}
+div > div.row > div > .card.bg-blue-1 {
+  background: #0095DA;
+}
+div > div.row > div > .card.bg-blue-2 {
+  background: #DAF3FF;
+}
+div > div.row > div > .card.bg-orange-1 {
+  background: #F37021;
+}
+div > div.row > div > .card.bg-orange-2 {
+  background: #FFE6DA;
+}
+div > div.row > div > .card.bg-red-1 {
+  background: #ED1C24;
+}
+div > div.row > div > .card.bg-red-2 {
+  background: #FFDEE0;
+}/*# sourceMappingURL=color.css.map */

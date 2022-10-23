@@ -1,0 +1,39 @@
+@import '../../../../assets/styles/index.scss';
+
+.content {
+    margin: 0 $base-size * 4 ;
+    display: flex;
+    flex-direction: column;
+  >.title {
+    margin: $base-size * 2 0 ;
+    word-break: normal;
+    text-transform: capitalize;
+    display: -webkit-box;
+    font: $font-md-regular;
+    line-height: 15px;
+    line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+  >.price-counted {
+    margin: $base-size * 2 0 ;
+    font: $font-lg-semibold;
+    color: $orange-1;
+  }
+  >.content-price {
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+    >.price{
+      font: $font-sm-regular;
+      color: $grey-3;
+      margin: 0;
+      margin-right: $base-size * 2;
+    }
+  }
+  >button {
+    margin: $base-size * 4 0;
+  }
+}

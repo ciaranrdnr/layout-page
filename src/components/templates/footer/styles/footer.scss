@@ -1,0 +1,36 @@
+@import '../../../../assets/styles/index.scss';
+footer.blue{
+  background: $grey-4;
+  display: flex;
+  flex-direction: column;
+  font: $font-md-regular;
+  padding: ($base-size * 8) ($base-size * 20);
+  >div{
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    &.content{
+    text-align: justify;
+    }
+    &.trademark{
+    text-align: center;
+    margin-top: $base-size* 10;
+    }
+     &.showAll{
+    text-align: center;
+    display: flex;
+    width: 100%;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: #0095DA;
+    user-select: none;
+    &.isOpen>svg{
+      transform: rotate(-90deg) ;
+    }&.isClose>svg{
+      transform: rotate(90deg) ;
+    }
+    }
+  }
+}

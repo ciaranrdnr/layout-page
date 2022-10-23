@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;6000;700&display=swap");
+p.xsRegular {
+  font: 400 10px Inter, sans-serif;
+}
+p.xsMedium {
+  font: 500 10px Inter, sans-serif;
+}
+p.xsSemibold {
+  font: 600 10px Inter, sans-serif;
+}
+p.xsBold {
+  font: 700 10px Inter, sans-serif;
+}
+p.smRegular {
+  font: 400 11px Inter, sans-serif;
+}
+p.smMedium {
+  font: 500 11px Inter, sans-serif;
+}
+p.smSemibold {
+  font: 600 11px Inter, sans-serif;
+}
+p.smBold {
+  font: 700 11px Inter, sans-serif;
+}
+p.mdRegular {
+  font: 400 12px Inter, sans-serif;
+}
+p.mdMedium {
+  font: 500 12px Inter, sans-serif;
+}
+p.mdSemibold {
+  font: 600 12px Inter, sans-serif;
+}
+p.mdold {
+  font: 700 12px Inter, sans-serif;
+}
+p.lgRegular {
+  font: 400 14px Inter, sans-serif;
+}
+p.lgMedium {
+  font: 500 14px Inter, sans-serif;
+}
+p.lgSemibold {
+  font: 600 14px Inter, sans-serif;
+}
+p.lgBold {
+  font: 700 14px Inter, sans-serif;
+}
+p.xlRegular {
+  font: 400 16px Inter, sans-serif;
+}
+p.xlMedium {
+  font: 500 16px Inter, sans-serif;
+}
+p.xlSemibold {
+  font: 600 16px Inter, sans-serif;
+}
+p.xlBold {
+  font: 700 16px Inter, sans-serif;
+}/*# sourceMappingURL=typograph.css.map */

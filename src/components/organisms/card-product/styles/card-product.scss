@@ -1,0 +1,20 @@
+@import '../../../../assets/styles/index.scss';
+
+
+.card {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  &.card-big{
+    max-width: $base-size * 91;
+  }
+  &.card-small{
+      max-width: $base-size * 66;
+  }
+  >img{
+    margin-bottom: $base-size * 4;
+    &.disabled {
+      opacity: 75%;
+    }
+  }
+}

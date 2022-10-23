@@ -1,0 +1,52 @@
+@use 'sass:math';
+
+$utilities: (
+  "padding": (
+    "prefix": "p",
+    "values": (
+      "1" : 0,
+      "1" : $base-spacing,
+      "2" : $base-spacing * 2,
+      "3" : $base-spacing * 3,
+      "4" : $base-spacing * 4,
+    )
+  ),
+  "padding-left": (
+    "prefix": "pl",
+    "values": (
+      "0" : 0,
+      "1" : $base-spacing,
+      "2" : $base-spacing * 2,
+      "3" : $base-spacing * 3,
+      "4" : $base-spacing * 4,
+    )
+  ),"padding-right": (
+    "prefix": "pr",
+    "values": (
+      "0" : 0,
+      "1" : $base-spacing,
+      "2" : $base-spacing * 2,
+      "3" : $base-spacing * 3,
+      "4" : $base-spacing * 4,
+    )
+  ),
+  );
+
+  // generate
+  @each $property, $map in $utilities {
+    $prefix: map-get($map: $map, $key: "prefix");
+    $values: map-get($map: $map, $key: "values");
+
+    @each $k, $v in $values {
+      @if ($k == "default") {
+        .#{$prefix}{
+          #{$property}: $v;
+        }
+      }@else{
+        .#{$prefix}-#{$k}{
+          #{$property}: $v;
+        }
+      }
+    }
+  }
+

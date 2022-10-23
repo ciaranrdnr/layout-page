@@ -1,0 +1,9 @@
+@import '../../../../assets/styles/index.scss';
+
+div.card{
+  box-shadow: $shadow-card;
+  background: $white;
+  min-width: $base-size * 10;  
+  min-height: $base-size * 10;
+  border-radius: 15px;
+}

@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;6000;700&display=swap");
+.content {
+  margin: 0 8px;
+  display: flex;
+  flex-direction: column;
+}
+.content > .title {
+  margin: 4px 0;
+  word-break: normal;
+  text-transform: capitalize;
+  display: -webkit-box;
+  font: 400 12px Inter, sans-serif;
+  line-height: 15px;
+  line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.content > .price-counted {
+  margin: 4px 0;
+  font: 600 14px Inter, sans-serif;
+  color: #F37021;
+}
+.content > .content-price {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.content > .content-price > .price {
+  font: 400 11px Inter, sans-serif;
+  color: #979797;
+  margin: 0;
+  margin-right: 4px;
+}
+.content > button {
+  margin: 8px 0;
+  border: none;
+}/*# sourceMappingURL=content-product.css.map */

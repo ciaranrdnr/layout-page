@@ -1,0 +1,21 @@
+@import '../../../../assets/styles/index.scss';
+  .scroll-hide {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+.scrolling-touch {
+  -webkit-overflow-scrolling: touch;
+}
+  .scrolling-touch::-webkit-scrollbar {
+    height: 4px;
+    width: 4px;
+  }
+
+  .scrolling-touch::-webkit-scrollbar-thumb {
+    @apply rounded;
+    background: #e0e0e0;
+  }
+
+  .scroll-hide::-webkit-scrollbar {
+    @apply hidden;
+  }
