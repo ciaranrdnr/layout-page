@@ -62,9 +62,9 @@ const ProductScroll = ({
       },
       
       ]
-  const listProduct = datas.map((data)=> {
+  const listProduct = datas.map((data, i)=> {
     return (
-      <div style={{maxWidth: mobile? '132px': '182px'}}>
+      <div key={i} style={{maxWidth: mobile? '132px': '182px'}}>
         <CardProduct discount={data.discount} price={data.price} title={data.title} type={data.type as buttonTypes} imgSrc={imageSrc}  />
       </div>
     )
